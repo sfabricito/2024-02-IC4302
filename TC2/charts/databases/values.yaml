@@ -1,0 +1,22 @@
+postgresql:
+  enabled: true
+mariadb:
+  enabled: true
+neo4j:
+  enabled: true
+couchdb:
+  enabled: true
+  couchdbConfig:
+    couchdb:
+      uuid: "12345678"
+  
+# elastic:
+#   enabled: true
+#   version: 8.6.1
+#   replicas: 1
+#   name: ic4302
+# kibana:
+#   enabled: true
+#   version: 8.6.1
+#   replicas: 1
+#   name: ic4302
